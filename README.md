@@ -79,6 +79,70 @@ mvn spring-boot:run
  ```
 mvn test
 ```
+## 🔹 Steps to Test in Postman
+### 1️⃣ Start Your Spring Boot Application
+Make sure your project is running:
+ ```
+mvn spring-boot:run
+```
+This will start the server, typically at http://localhost:8080.
+---
+
+## 📌 Testing API Endpoints in Postman
+### 🔹 Fetch Exchange Rates
+```
+Method: GET
+URL: http://localhost:8080/api/rates?base=USD
+```
+Expected Response:
+```
+{
+  "EUR": 0.92,
+  "GBP": 0.78,
+  "INR": 83.52
+}
+```
+#### -Steps in Postman:
+##### -Open Postman.
+##### -Select GET method.
+```
+Enter URL: http://localhost:8080/api/rates?base=USD
+```
+##### -Click Send.
+##### -Check the JSON response.
+### 🔹 Convert Currency
+- Method: POST
+```
+URL:http://localhost:8080/api/convert
+Body (JSON format, select "raw" and type "JSON"):
+ 
+ 
+{
+  "from": "USD",
+  "to": "INR",
+  "amount": 100
+}
+
+```
+-Expected Response:
+``` 
+{
+  "from": "USD",
+  "to": "INR",
+  "amount": 100,
+  "convertedAmount": 8352
+}
+```
+#### Steps in Postman:
+-Open Postman.
+-Select POST method.
+-Enter URL: http://localhost:8080/api/convert
+-Go to Body > raw > Select JSON.
+-Paste the above JSON request.
+-Click Send.
+-Check the JSON response.
+
+
 ---
 ## 📝 Author
 ### 👤 Mahesh H
