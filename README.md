@@ -34,7 +34,7 @@ CurrencyConverter │── src/main/java/com/mahesh/CurrencyConverter │ ├�
 Sign up at [ExchangeRate-API](https://www.exchangerate-api.com/) and get a free API key.
 
 Edit **`src/main/resources/application.properties`**:
-```properties
+##properties
 spring.application.name=CurrencyConverter
 api.currency.base-url=https://api.exchangerate-api.com/v4/latest/
 api.currency.key=YOUR_API_KEY
