@@ -1,0 +1,522 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.mahesh:CurrencyConverter >--------------------
+[INFO] Building CurrencyConverter 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.2:run (default-cli) > test-compile @ CurrencyConverter >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ CurrencyConverter ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ CurrencyConverter ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ CurrencyConverter ---
+[INFO] skip non existing resourceDirectory /Users/yethukrishnan/Downloads/CurrencyConverter/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ CurrencyConverter ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.4.2:run (default-cli) < test-compile @ CurrencyConverter <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.2:run (default-cli) @ CurrencyConverter ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T16:28:37.592+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 8679 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T16:28:37.593+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T16:28:37.609+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-08T16:28:37.609+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-08T16:28:37.923+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T16:28:37.929+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T16:28:37.929+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T16:28:37.943+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T16:28:37.943+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 334 ms
+2025-02-08T16:28:38.073+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T16:28:38.083+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T16:28:38.087+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.63 seconds (process running for 0.771)
+2025-02-08T16:28:57.268+05:30  INFO 8679 --- [CurrencyConverter] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-08T16:28:57.269+05:30  INFO 8679 --- [CurrencyConverter] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-08T16:28:57.270+05:30  INFO 8679 --- [CurrencyConverter] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-08T16:48:37.070+05:30  INFO 8679 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (3 additions, 1 deletion, 0 modifications)
+2025-02-08T16:48:37.076+05:30  INFO 8679 --- [CurrencyConverter] [       Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T16:48:37.083+05:30  INFO 8679 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T16:48:37.123+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 8679 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T16:48:37.123+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T16:48:37.197+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T16:48:37.197+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T16:48:37.197+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T16:48:37.201+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T16:48:37.201+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 77 ms
+2025-02-08T16:48:37.231+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T16:48:37.234+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T16:48:37.236+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.124 seconds (process running for 1199.963)
+2025-02-08T16:48:37.237+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-08T16:49:02.875+05:30  INFO 8679 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-02-08T16:49:02.877+05:30  INFO 8679 --- [CurrencyConverter] [       Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T16:49:02.878+05:30  INFO 8679 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T16:49:02.909+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 8679 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T16:49:02.909+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T16:49:02.966+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T16:49:02.966+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T16:49:02.966+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T16:49:02.969+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T16:49:02.969+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 60 ms
+2025-02-08T16:49:02.994+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T16:49:02.997+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T16:49:02.998+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.097 seconds (process running for 1225.726)
+2025-02-08T16:49:02.999+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-08T16:49:19.545+05:30  INFO 8679 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (0 additions, 7 deletions, 0 modifications)
+2025-02-08T16:49:19.547+05:30  INFO 8679 --- [CurrencyConverter] [      Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T16:49:19.549+05:30  INFO 8679 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T16:49:19.596+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 8679 (started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T16:49:19.596+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T16:49:19.653+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T16:49:19.654+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T16:49:19.654+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T16:49:19.657+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T16:49:19.657+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 60 ms
+2025-02-08T16:49:19.677+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T16:49:19.680+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T16:49:19.682+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.096 seconds (process running for 1242.41)
+2025-02-08T16:49:38.648+05:30  INFO 8679 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (7 additions, 0 deletions, 0 modifications)
+2025-02-08T16:49:38.650+05:30  INFO 8679 --- [CurrencyConverter] [      Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T16:49:38.651+05:30  INFO 8679 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T16:49:38.684+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 8679 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T16:49:38.685+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T16:49:38.744+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T16:49:38.744+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T16:49:38.744+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T16:49:38.747+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T16:49:38.747+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 62 ms
+2025-02-08T16:49:38.776+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T16:49:38.781+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T16:49:38.783+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.108 seconds (process running for 1261.512)
+2025-02-08T16:49:38.784+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-08T16:50:36.744+05:30  INFO 8679 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (0 additions, 0 deletions, 7 modifications)
+2025-02-08T16:50:36.745+05:30  INFO 8679 --- [CurrencyConverter] [      Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T16:50:36.747+05:30  INFO 8679 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T16:50:36.778+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 8679 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T16:50:36.778+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T16:50:36.834+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T16:50:36.834+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T16:50:36.834+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T16:50:36.837+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T16:50:36.837+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 58 ms
+2025-02-08T16:50:36.863+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T16:50:36.866+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T16:50:36.868+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.097 seconds (process running for 1319.598)
+2025-02-08T16:50:36.868+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-08T16:50:59.903+05:30  INFO 8679 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+2025-02-08T16:50:59.906+05:30  INFO 8679 --- [CurrencyConverter] [      Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T16:50:59.908+05:30  INFO 8679 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T16:50:59.950+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 8679 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T16:50:59.950+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T16:51:00.013+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T16:51:00.014+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T16:51:00.014+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T16:51:00.018+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T16:51:00.018+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 67 ms
+2025-02-08T16:51:00.043+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T16:51:00.047+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T16:51:00.049+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.108 seconds (process running for 1342.78)
+2025-02-08T16:51:00.049+05:30  INFO 8679 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23:11 min
+[INFO] Finished at: 2025-02-08T16:51:48+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.2:run (default-cli) on project CurrencyConverter: Process terminated with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.mahesh:CurrencyConverter >--------------------
+[INFO] Building CurrencyConverter 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.2:run (default-cli) > test-compile @ CurrencyConverter >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ CurrencyConverter ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ CurrencyConverter ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 4 source files with javac [debug parameters release 21] to target/classes
+[INFO] /Users/yethukrishnan/Downloads/CurrencyConverter/src/main/java/com/mahesh/CurrencyConverter/controller/CurrencyConverterController.java: /Users/yethukrishnan/Downloads/CurrencyConverter/src/main/java/com/mahesh/CurrencyConverter/controller/CurrencyConverterController.java uses unchecked or unsafe operations.
+[INFO] /Users/yethukrishnan/Downloads/CurrencyConverter/src/main/java/com/mahesh/CurrencyConverter/controller/CurrencyConverterController.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ CurrencyConverter ---
+[INFO] skip non existing resourceDirectory /Users/yethukrishnan/Downloads/CurrencyConverter/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ CurrencyConverter ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target/test-classes
+[INFO] 
+[INFO] <<< spring-boot:3.4.2:run (default-cli) < test-compile @ CurrencyConverter <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.2:run (default-cli) @ CurrencyConverter ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T16:52:15.048+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 9853 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T16:52:15.049+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T16:52:15.066+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-08T16:52:15.067+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-08T16:52:15.400+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T16:52:15.407+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T16:52:15.407+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T16:52:15.421+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T16:52:15.421+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 354 ms
+2025-02-08T16:52:15.559+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T16:52:15.569+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T16:52:15.573+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.668 seconds (process running for 0.821)
+2025-02-08T16:52:38.040+05:30  INFO 9853 --- [CurrencyConverter] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-08T16:52:38.041+05:30  INFO 9853 --- [CurrencyConverter] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-08T16:52:38.041+05:30  INFO 9853 --- [CurrencyConverter] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-02-08T16:52:38.076+05:30  WARN 9853 --- [CurrencyConverter] [nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> com.mahesh.CurrencyConverter.controller.CurrencyController.convertCurrency(com.mahesh.CurrencyConverter.controller.ConversionRequest)]
+2025-02-08T16:59:42.300+05:30  INFO 9853 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (1 addition, 3 deletions, 0 modifications)
+2025-02-08T16:59:42.306+05:30  INFO 9853 --- [CurrencyConverter] [       Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T16:59:42.310+05:30  INFO 9853 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T16:59:42.351+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 9853 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T16:59:42.351+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T16:59:42.439+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T16:59:42.440+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T16:59:42.440+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T16:59:42.445+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T16:59:42.445+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 92 ms
+2025-02-08T16:59:42.493+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T16:59:42.497+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T16:59:42.499+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.159 seconds (process running for 447.76)
+2025-02-08T16:59:42.499+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-08T16:59:43.910+05:30  INFO 9853 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-08T16:59:43.910+05:30  INFO 9853 --- [CurrencyConverter] [       Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T16:59:43.912+05:30  INFO 9853 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T16:59:43.940+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 9853 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T16:59:43.940+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T16:59:43.999+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T16:59:43.999+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T16:59:43.999+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T16:59:44.002+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T16:59:44.002+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 61 ms
+2025-02-08T16:59:44.032+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T16:59:44.035+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T16:59:44.037+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.106 seconds (process running for 449.298)
+2025-02-08T16:59:44.037+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-08T17:00:04.624+05:30  INFO 9853 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-08T17:00:04.627+05:30  INFO 9853 --- [CurrencyConverter] [      Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T17:00:04.629+05:30  INFO 9853 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T17:00:04.673+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 9853 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T17:00:04.673+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T17:00:04.789+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T17:00:04.789+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T17:00:04.789+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T17:00:04.793+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T17:00:04.793+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2025-02-08T17:00:04.831+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T17:00:04.834+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T17:00:04.836+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.175 seconds (process running for 470.098)
+2025-02-08T17:00:04.836+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-08T17:00:06.646+05:30  INFO 9853 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-08T17:00:06.647+05:30  INFO 9853 --- [CurrencyConverter] [      Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T17:00:06.648+05:30  INFO 9853 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T17:00:06.679+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 9853 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T17:00:06.679+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T17:00:06.738+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T17:00:06.738+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T17:00:06.739+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T17:00:06.741+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T17:00:06.742+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 62 ms
+2025-02-08T17:00:06.767+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T17:00:06.770+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T17:00:06.773+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.104 seconds (process running for 472.035)
+2025-02-08T17:00:06.774+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-08T17:00:23.701+05:30  INFO 9853 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-02-08T17:00:23.702+05:30  INFO 9853 --- [CurrencyConverter] [      Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T17:00:23.703+05:30  INFO 9853 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T17:00:23.731+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 9853 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T17:00:23.731+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T17:00:23.784+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T17:00:23.785+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T17:00:23.785+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T17:00:23.788+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T17:00:23.788+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 57 ms
+2025-02-08T17:00:23.812+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T17:00:23.815+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T17:00:23.817+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.095 seconds (process running for 489.08)
+2025-02-08T17:00:23.818+05:30  INFO 9853 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  09:16 min
+[INFO] Finished at: 2025-02-08T17:01:29+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.2:run (default-cli) on project CurrencyConverter: Process terminated with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.mahesh:CurrencyConverter >--------------------
+[INFO] Building CurrencyConverter 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.2:run (default-cli) > test-compile @ CurrencyConverter >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ CurrencyConverter ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ CurrencyConverter ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ CurrencyConverter ---
+[INFO] skip non existing resourceDirectory /Users/yethukrishnan/Downloads/CurrencyConverter/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ CurrencyConverter ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.4.2:run (default-cli) < test-compile @ CurrencyConverter <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.2:run (default-cli) @ CurrencyConverter ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T17:03:00.525+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 10502 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T17:03:00.526+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T17:03:00.544+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-08T17:03:00.545+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-08T17:03:00.888+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T17:03:00.895+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T17:03:00.895+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T17:03:00.910+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T17:03:00.910+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 365 ms
+2025-02-08T17:03:01.049+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T17:03:01.060+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T17:03:01.064+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.687 seconds (process running for 0.846)
+2025-02-08T17:03:41.680+05:30  INFO 10502 --- [CurrencyConverter] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-08T17:03:41.681+05:30  INFO 10502 --- [CurrencyConverter] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-08T17:03:41.682+05:30  INFO 10502 --- [CurrencyConverter] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-08T17:20:49.678+05:30  INFO 10502 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-08T17:20:49.681+05:30  INFO 10502 --- [CurrencyConverter] [       Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T17:20:49.685+05:30  INFO 10502 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T17:20:49.730+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 10502 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T17:20:49.730+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T17:20:49.827+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T17:20:49.828+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T17:20:49.828+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T17:20:49.832+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T17:20:49.832+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 101 ms
+2025-02-08T17:20:49.870+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T17:20:49.874+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T17:20:49.878+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.159 seconds (process running for 1069.686)
+2025-02-08T17:20:49.879+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-08T17:20:51.285+05:30  INFO 10502 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-08T17:20:51.286+05:30  INFO 10502 --- [CurrencyConverter] [       Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T17:20:51.287+05:30  INFO 10502 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T17:20:51.316+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 10502 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T17:20:51.316+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T17:20:51.420+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T17:20:51.421+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T17:20:51.421+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T17:20:51.425+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T17:20:51.425+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 108 ms
+2025-02-08T17:20:51.480+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T17:20:51.488+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T17:20:51.490+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.184 seconds (process running for 1071.299)
+2025-02-08T17:20:51.491+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-08T17:20:52.898+05:30  INFO 10502 --- [CurrencyConverter] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-08T17:20:52.900+05:30  INFO 10502 --- [CurrencyConverter] [      Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-08T17:20:52.903+05:30  INFO 10502 --- [CurrencyConverter] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-08T17:20:52.949+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Starting CurrencyConverterApplication using Java 21.0.6 with PID 10502 (/Users/yethukrishnan/Downloads/CurrencyConverter/target/classes started by yethukrishnan in /Users/yethukrishnan/Downloads/CurrencyConverter)
+2025-02-08T17:20:52.949+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-08T17:20:53.005+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-08T17:20:53.006+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-08T17:20:53.006+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-08T17:20:53.008+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-08T17:20:53.008+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 58 ms
+2025-02-08T17:20:53.029+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-08T17:20:53.032+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-08T17:20:53.034+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] c.m.C.CurrencyConverterApplication       : Started CurrencyConverterApplication in 0.096 seconds (process running for 1072.842)
+2025-02-08T17:20:53.034+05:30  INFO 10502 --- [CurrencyConverter] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
