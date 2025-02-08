@@ -33,7 +33,7 @@ api.currency.key=YOUR_API_KEY
 ```
 ----
 ### 📌 Endpoints
-####🔹 Fetch Exchange Rates
+#### 🔹 Fetch Exchange Rates
 GET /api/rates?base=USD
 ```
 {
