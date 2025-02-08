@@ -102,14 +102,12 @@ Expected Response:
   "INR": 83.52
 }
 ```
-#### - Steps in Postman:
-##### - Open Postman.
-##### - Select GET method.
-```
-Enter URL: http://localhost:8080/api/rates?base=USD
-```
-##### - Click Send.
-##### - Check the JSON response.
+####  Steps in Postman:
+- Open Postman.
+- Select GET method.
+- Enter URL: http://localhost:8080/api/rates?base=USD
+- Click Send.
+- Check the JSON response.
 ### 🔹 Convert Currency
 - Method: POST
 ```
@@ -124,7 +122,7 @@ Body (JSON format, select "raw" and type "JSON"):
 }
 
 ```
--Expected Response:
+- Expected Response:
 ``` 
 {
   "from": "USD",
