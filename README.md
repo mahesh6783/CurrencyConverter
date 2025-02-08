@@ -34,20 +34,20 @@ CurrencyConverter │── src/main/java/com/mahesh/CurrencyConverter │ ├�
 Sign up at [ExchangeRate-API](https://www.exchangerate-api.com/) and get a free API key.
 
 Edit **`src/main/resources/application.properties`**:
-##properties
+## properties
 spring.application.name=CurrencyConverter
 api.currency.base-url=https://api.exchangerate-api.com/v4/latest/
 api.currency.key=YOUR_API_KEY
 
-##📌 Endpoints
-###🔹 Fetch Exchange Rates
+## 📌 Endpoints
+### 🔹 Fetch Exchange Rates
 GET /api/rates?base=USD
 {
   "EUR": 0.92,
   "GBP": 0.78,
   "INR": 83.52
 }
-###🔹 Convert Currency
+### 🔹 Convert Currency
 POST /api/convert
 {
   "from": "USD",
@@ -62,18 +62,18 @@ Response
   "convertedAmount": 8352
 }
 
-##🏗️ Build & Run the Project
-###1️⃣ Clone the Repository
+## 🏗️ Build & Run the Project
+### 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/CurrencyConverter.git
 cd CurrencyConverter
-###2️⃣ Build with Maven
+### 2️⃣ Build with Maven
 mvn clean install
-###3️⃣ Run the Application
+### 3️⃣ Run the Application
 mvn spring-boot:run
-###✅ Run Tests
+### ✅ Run Tests
 mvn test
-###📝 Author
-####👤 Mahesh H
+### 📝 Author
+#### 👤 Mahesh H
 🔗 [Portfolio](https://maheshh.vercel.app/) 
 
 
